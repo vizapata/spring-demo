@@ -7,7 +7,7 @@
 
     <changeSet id="changelog-1.0" author="Victor Zapata">
         <createTable tableName="product">
-            <column name="id" type="int">
+            <column name="id" type="serial">
                 <constraints primaryKey="true" nullable="false"/>
             </column>
             <column name="name" type="varchar(50)">
